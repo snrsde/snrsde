@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     backgroundColor: '#3f4041',
     minHeight: '100vh',
+    maxWidth: '100vw',
   },
   appBar: {
     transition: theme.transitions.create(['margin', 'width'], {
@@ -65,7 +66,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     padding: theme.spacing(3),
     backgroundColor: '#3f4041',
-    minheight:'120vh',
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -142,7 +142,7 @@ export default function BaseComponent(props) {
            {"k" : 'Coding/DS/Algos',"v":"/algo"},
            {"k" : 'Object Oriented Design',"v":"/ood"},
            {"k" : 'Ambiguity',"v":"/ambiguity"}].map((text, index) => (
-            <a className={classes.link} href={text.v}>
+            <a className={classes.link} href={"/snrsde/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>
@@ -153,7 +153,7 @@ export default function BaseComponent(props) {
         <List>
         {[{"k" : 'Home',"v":"/"},
            {"k" : 'SDE Premium Support',"v":"/premium"}].map((text, index) => (
-            <a className={classes.link} href={text.v}>
+            <a className={classes.link} href={"/snrsde/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>
@@ -163,7 +163,7 @@ export default function BaseComponent(props) {
         <Divider />
         <List>
         {[{"k" : 'Donate',"v":"/donate"}].map((text, index) => (
-            <a className={classes.link} href={text.v}>
+            <a className={classes.link} href={"/snrsde/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>

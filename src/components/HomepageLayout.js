@@ -32,8 +32,8 @@ function HomepageLayout() {
         <Grid item xs={12}>
         <Paper className={classes.paper}>
           <div>
-            <h1 style={{fontSize:'70px', color:'white'}}>Snr Eng.</h1>
-            <h1 style={{ color:'white'}}>A collection of resources for 5+ yr engineers to learn</h1>
+            <h1 style={{fontSize:'70px', color:'white'}}>Snr Eng</h1>
+            <h1 style={{ color:'white'}}>A collection of resources for 5+ yr engineers to learn and prep</h1>
             <h1 style={{ fontSize:'20px', color:'white'}}>-From an anonymous FAANG eng to all</h1>
           </div>
           </Paper>
@@ -54,7 +54,7 @@ function HomepageLayout() {
               <p>
                 If you like the content or this helped you prep for interviews. 
                   Please consider <a style={{color: "blue",
-    textDecoration: "none"}} href="/donate">donating</a>, it takes a lot of effort to curate this content. I hope enjoy learning.
+    textDecoration: "none"}} href="/snrsde/#/donate">donating</a>, it takes a lot of effort to curate this content. I hope enjoy learning.
               </p>
             </div>
           </Paper>

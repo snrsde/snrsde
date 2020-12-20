@@ -10,7 +10,7 @@ function YoutubeComp(props) {
         width: '640',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
-          autoplay: 1,
+          autoplay: 0,
         },
       };
     return (
@@ -18,7 +18,7 @@ function YoutubeComp(props) {
             <Typography variant="body1" component="p">
                   {Parser(""+vidDesc)}
             </Typography>
-            <YouTube videoId={videoId} opts={opts} onReady={false} />
+            <YouTube videoId={videoId} opts={opts} />
         </div>
     )
 }

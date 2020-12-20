@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Parser from 'html-react-parser';
 
@@ -34,7 +32,7 @@ class MiniPost extends Component {
   
     render() {
         const { classes, data } = this.props;
-        const readLink = "/post/"+data.id;
+        const readLink = "/snrsde/#/post/"+data.id;
         return (
             <Card className={classes.root} elevation={20}>
             <a className={classes.link} href={readLink}>

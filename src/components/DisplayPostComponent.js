@@ -23,7 +23,7 @@ export default class DisplayPostComponent extends Component {
 
      getData=()=>{
          const { id } = this.state;
-        fetch('/resources/post/'+id+'.json'
+        fetch('./resources/post/'+id+'.json'
         ,{
           headers : { 
             'Content-Type': 'application/json',
