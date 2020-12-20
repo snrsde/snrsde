@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/snrsde/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/snrsde/static/js/main.f8ecd406.chunk.js",
+    "main.js.map": "/snrsde/static/js/main.f8ecd406.chunk.js.map",
+    "runtime-main.js": "/snrsde/static/js/runtime-main.95e28cfc.js",
+    "runtime-main.js.map": "/snrsde/static/js/runtime-main.95e28cfc.js.map",
+    "static/js/2.ec34e8f1.chunk.js": "/snrsde/static/js/2.ec34e8f1.chunk.js",
+    "static/js/2.ec34e8f1.chunk.js.map": "/snrsde/static/js/2.ec34e8f1.chunk.js.map",
+    "static/js/3.5b1fd09b.chunk.js": "/snrsde/static/js/3.5b1fd09b.chunk.js",
+    "static/js/3.5b1fd09b.chunk.js.map": "/snrsde/static/js/3.5b1fd09b.chunk.js.map",
+    "index.html": "/snrsde/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/snrsde/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.ec34e8f1.chunk.js.LICENSE.txt": "/snrsde/static/js/2.ec34e8f1.chunk.js.LICENSE.txt",
+    "static/media/snrsde.a0844e7a.svg": "/snrsde/static/media/snrsde.a0844e7a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95e28cfc.js",
+    "static/js/2.ec34e8f1.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.f8ecd406.chunk.js"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "id" : "1",
+    "level" : "Expert",
+    "tags" :["system_design", "ood"],
+    "date" : "25-Dec-2020",
+    "title" : "Sample Title",
+    "description" : "sample desc",
+    "body" : "This is a sample body",
+    "videoId" :"2g811Eo7K8U",
+    "vidDesc" : "Desc of Video",
+    "pdfLink": "/resources/pdfs/any.pdf",
+    "endText": "Finish in style"
+}
