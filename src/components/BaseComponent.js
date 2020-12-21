@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     backgroundColor: '#3f4041',
     minHeight: '100vh',
-    maxWidth: '100vw',
   },
   appBar: {
     transition: theme.transitions.create(['margin', 'width'], {
@@ -142,7 +141,7 @@ export default function BaseComponent(props) {
            {"k" : 'Coding/DS/Algos',"v":"/algo"},
            {"k" : 'Object Oriented Design',"v":"/ood"},
            {"k" : 'Ambiguity',"v":"/ambiguity"}].map((text, index) => (
-            <a className={classes.link} href={"/snrsde/#"+text.v}>
+            <a className={classes.link} href={"/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>
@@ -153,7 +152,7 @@ export default function BaseComponent(props) {
         <List>
         {[{"k" : 'Home',"v":"/"},
            {"k" : 'SDE Premium Support',"v":"/premium"}].map((text, index) => (
-            <a className={classes.link} href={"/snrsde/#"+text.v}>
+            <a className={classes.link} href={"/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>
@@ -163,7 +162,7 @@ export default function BaseComponent(props) {
         <Divider />
         <List>
         {[{"k" : 'Donate',"v":"/donate"}].map((text, index) => (
-            <a className={classes.link} href={"/snrsde/#"+text.v}>
+            <a className={classes.link} href={"/#"+text.v}>
               <ListItem button key={text.k}>
                 <ListItemText primary={text.k} />
               </ListItem>
@@ -177,13 +176,14 @@ export default function BaseComponent(props) {
         })}
       >
         <div className={classes.drawerHeader} />
+        <div style={{maxWidth:'100vw'}}>
         <img
-                        src={Logo}
-                        style={{ height: 100, width: 600 }}
-                        alt="website logo"
-                    />
+            src={Logo}
+            style={{ maxWidth:'100vw', height: 100, width: 600 }}
+            alt="website logo"
+        />
         {props.children}
-        
+        </div>
       </main>
     </div>
   );

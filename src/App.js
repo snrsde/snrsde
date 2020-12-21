@@ -9,8 +9,6 @@ import DonatePage from './components/DonatePage';
 
 
 function App() {
-  
-
   return (
     <div style ={{overflow: "scroll"}} className="App">
       <HashRouter basename='/snrsde'>

@@ -59,7 +59,15 @@ class DetailPost extends Component {
                 </Typography>
                 { data.pdfLink != null &&
                   <object width="100%" height="800" 
-                    data={data.pdfLink+"#view=FitH"} type="application/pdf">  
+                    data={data.pdfLink+"#view=FitH"} 
+                    type="application/pdf">  
+                    <p>Your web browser doesn't have a PDF plugin.<br/>
+                    <a href={data.pdfLink}>
+                    <br/>
+                      Download the pdf<br/>
+                    </a>
+                    or Please visit using a desktop browser.
+                      </p>
                   </object>
                 }
                 { data.endText != null &&

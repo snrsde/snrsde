@@ -54,7 +54,7 @@ function HomepageLayout() {
               <p>
                 If you like the content or this helped you prep for interviews. 
                   Please consider <a style={{color: "blue",
-    textDecoration: "none"}} href="/snrsde/#/donate">donating</a>, it takes a lot of effort to curate this content. I hope enjoy learning.
+    textDecoration: "none"}} href="/#/donate">donating</a>, it takes a lot of effort to curate this content for you. I hope you enjoy learning.
               </p>
             </div>
           </Paper>

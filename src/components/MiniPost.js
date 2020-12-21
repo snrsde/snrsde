@@ -32,7 +32,7 @@ class MiniPost extends Component {
   
     render() {
         const { classes, data } = this.props;
-        const readLink = "/snrsde/#/post/"+data.id;
+        const readLink = "/#/post/"+data.id;
         return (
             <Card className={classes.root} elevation={20}>
             <a className={classes.link} href={readLink}>

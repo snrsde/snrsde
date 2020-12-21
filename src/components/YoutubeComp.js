@@ -7,7 +7,8 @@ function YoutubeComp(props) {
     const { videoId , vidDesc } = props;
     const opts = {
         height: '390',
-        width: '640',
+        width: '100%',
+        // maxWidth: '100%',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 0,
@@ -18,7 +19,9 @@ function YoutubeComp(props) {
             <Typography variant="body1" component="p">
                   {Parser(""+vidDesc)}
             </Typography>
-            <YouTube videoId={videoId} opts={opts} />
+            <div style={{maxWidth: '630px', margin: 'auto'}}>
+                <YouTube videoId={videoId} opts={opts} />
+            </div>
         </div>
     )
 }
