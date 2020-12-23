@@ -5,8 +5,8 @@
             "id" : "unix_wc_util",
             "level" : 2,
             "date" : "2020/12/23",
-            "title" : "unix wc utility",
-            "description" : "Design unix's wc util"
+            "title" : "Designing Unix wc Util",
+            "description" : "A walkthrough of how in a simple word count program can be created into a interview question"
         }
     ],
     "Smapleposts" :[
