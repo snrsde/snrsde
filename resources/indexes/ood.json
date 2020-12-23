@@ -1,26 +1,5 @@
 {
     "id" : "ood",
     "posts" :[
-        {
-            "id" : "samp_post",
-            "level" : 3,
-            "date" : "2020/02/01",
-            "title" : "Sample Title",
-            "description" : "sample desc"
-        },
-        {
-            "id" : "samp_post",
-            "level" : 2,
-            "date" : "2020/10/01",
-            "title" : "Sample Title",
-            "description" : "sample desc"
-        },
-        {
-            "id" : "samp_post",
-            "level" : 1,
-            "date" : "2020/08/01",
-            "title" : "Sample Title",
-            "description" : "sample desc"
-        }
     ]
 }
