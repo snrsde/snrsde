@@ -1,5 +1,12 @@
 {
     "id" : "ood",
     "posts" :[
+        {
+            "id" : "unix_wc_util",
+            "level" : 2,
+            "date" : "2020/12/23",
+            "title" : "Designing Unix wc Util",
+            "description" : "A walkthrough of how in a simple word count program can be created into a interview question"
+        }
     ]
 }
