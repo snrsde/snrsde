@@ -22,6 +22,10 @@ const useStyles = theme => ({
       backgroundColor: '#5d737e',
       textAlign: 'center',
       color: "white",
+    },
+    content : {
+      textAlign: 'left' 
+
     }
   
   });
@@ -54,8 +58,10 @@ class DetailPost extends Component {
                 { data.vidDesc != null &&
                   <YoutubeComp videoId={data.videoId} vidDesc={data.vidDesc}/>
                 }
-                <Typography variant="body1" component="p">
-                  {Parser(""+data.body)}
+                <Typography  variant="body1" component="div">
+                  <div style={{textAlign: "left", marginLeft:'10%'}}>
+                    {Parser(""+data.body)}
+                  </div>
                 </Typography>
                 { data.pdfLink != null &&
                   <object width="100%" height="800" 

@@ -1,19 +1,6 @@
 {
     "id" : "system_design",
     "posts" :[
-        {
-            "id" : "samp_post",
-            "level" : 3,
-            "date" : "2020/02/01",
-            "title" : "Sample Title",
-            "description" : "sample desc"
-        },
-        {
-            "id" : "samp_post",
-            "level" : 3,
-            "date" : "2020/02/01",
-            "title" : "Sample Title",
-            "description" : "sample desc"
-        }
+        
     ]
 }

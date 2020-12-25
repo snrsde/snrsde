@@ -69,6 +69,7 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    maxWidth: '100vw',
     marginLeft: -drawerWidth,
   },
   contentShift: {
@@ -117,7 +118,7 @@ export default function BaseComponent(props) {
             <MenuIcon />
           </IconButton>
           <Typography  variant="h6" noWrap>
-            Snr Engineer
+            Snr SDE
           </Typography>
         </Toolbar>
       </AppBar>

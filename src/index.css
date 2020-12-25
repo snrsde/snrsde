@@ -10,4 +10,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background: #80808040;
 }
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background: #80808040;
+}
+/* ul {
+  text-align: center;
+  list-style-position: inside;
+} */
